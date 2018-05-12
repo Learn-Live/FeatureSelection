@@ -1,0 +1,20 @@
+1. Use Filter and wrapper to do "feature selection", 
+  Once get results, do normalization, then append "flow ID, srcIP, dstIP, timestamp" to the feature subset.
+  The subset should be like this....
+  'flow ID, timestamp, srcIP, dstIP, feature subset' 
+  
+  This subset should be gave to others to use.
+  
+  
+ 2.Plot the figure about that the accuracy declines along with the number of features in feature subset decreased.
+  The figure likes:
+    x axis is the number of features in feature subset.
+    y axis is the accuracy on different feature subset.
+    
+ 3. Use PCA or AE to do "feature selection"
+ 
+ 
+ 4. implement SVM, RF, DT, LR as our typical classifiers
+ 
+ 
+
